@@ -8,6 +8,6 @@ bcrypt = Bcrypt(app)
 def index():
     return render_template('dashboard.html')
 
-@app.route('/1')
+@app.route('/1test')
 def next_page():
     return render_template('dashboard2.html')
